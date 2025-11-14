@@ -2,27 +2,40 @@
     border: 0;
     margin: 0;
 }
+.negrita{
+    font-weight: bold;
+}
 
 header{
     padding-left: 3vw;
     padding-top: 3vh;
     padding-right: 3vw;
     background-color: rgb(30,10,40);
+    justify-content: center;
     color: rgb(255,255,255); /*colorrrrrrrrrrorororoorororo*/
 }
 nav{
     display: flex;
     width: 100%;
 }
+.img_head{
+    width:25%;
+    height: auto;
+}
 .header_options{
-    text-align: left auto;
+    padding-left: 40%;
+    text-align: left;
     list-style-type: none;
     display: flex;
     width: 100%;
-    gap: 1%;
+    gap: 2%;
 }
 .header_options li{
-    width: 10%;
+    width: 20%;
+}
+.header_options li a{
+    text-decoration: none;
+    color: rgb(255,255,255);
 }
 .header_name{
     text-align: center;
@@ -31,3 +44,20 @@ nav{
     color: rgb(255,255,255); /*colorrrrrrrrrrorororoorororo*/
     font-size: 120%;
 }
+
+
+
+
+.about_me{
+    padding: 2%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: auto;
+    border: solid 2px rgb(0, 0, 0);
+}
+.about_me_A{
+    display:block;
+}
+
